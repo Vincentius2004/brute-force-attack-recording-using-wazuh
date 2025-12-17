@@ -17,11 +17,11 @@ USING : hydra -l root -x 4:6:a ssh://192.168.1.100:2222
 ![Wazuh Manager](foto/brute-force.png)
 
 
-## 2. WAZUH DASHBOARD DISPLAY
+## 3. WAZUH DASHBOARD DISPLAY
 ![Wazuh Manager](foto/dashboard.png)
 
 
-## 2. WIRESHARK DISPLAY
+## 4. WIRESHARK DISPLAY
 USING : ip.src == 192.168.1.10 && tcp.port == 2222 
 ![Wazuh Manager](foto/wireshark-ip.src.png)
 USING : tcp.flags.syn == 1 and tcp.flags.ack == 0
